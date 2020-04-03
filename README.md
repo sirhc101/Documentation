@@ -5,6 +5,7 @@ Welcome to the `365 business API` Implementation Guide. With this guide we want 
 We recommend to start with [Get Started](./Get_Started.md) document and go further from there.
 
 Following the in this documentation covered apps are listed:
+
 | Name | Description |
 | --- | --- |
 | [365 business API](./365businessapi/README.md) | Base library app, to consume 365 business API services. |
