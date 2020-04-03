@@ -9,8 +9,8 @@ Following the in this documentation covered apps are listed:
 | Name | Description |
 | --- | --- |
 | [365 business API](./365businessapi/README.md) | Base library app, to consume 365 business API services. |
-| 365 business Barcode | -/- |
-| 365 business PDF | -/- |
+| 365 business Barcode | _Documentation coming soon._ |
+| 365 business PDF | _Documentation coming soon._ |
 
 ## Frequently Asked Questions
 
