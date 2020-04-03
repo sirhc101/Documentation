@@ -1,4 +1,4 @@
-# 365 business API - Implementation Guide
+# 365 business API
 
 Welcome to the `365 business API` Implementation Guide. With this guide we want to enable you to implement the functionalities for the 365 business API into your Microsoft Dynamics 365 Business Central application.
 
