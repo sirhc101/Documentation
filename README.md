@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+# 365 business API - Implementation Guide
 
-You can use the [editor on GitHub](https://github.com/365businessdev/Documentation/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Welcome to the `365 business API` Implementation Guide. With this guide we want to enable you to implement the functionalities for the 365 business API into your Microsoft Dynamics 365 Business Central application.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+We recommend to start with [Get Started](./Get_Started.md) document and go further from there.
 
-### Markdown
+Following the in this documentation covered apps are listed:
+| Name | Description |
+| --- | --- |
+| [365 business API](./365businessapi/README.md) | Base library app, to consume 365 business API services. |
+| 365 business Barcode | -/- |
+| 365 business PDF | -/- |
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Frequently Asked Questions
 
-```markdown
-Syntax highlighted code block
+### Can I develop my own application based on a 365 business API service?
+Yes, you can. The `365 business API` is a open and well documented API.
 
-# Header 1
-## Header 2
-### Header 3
+We strongly recommend to use the `365 business API` app as base library, but you can also develop your own connection library instead. You will find all necessary information to learn how to use the `365 business API` app at this guide.
 
-- Bulleted
-- List
+### Where do I find a detailed API documentation?
+The API documentation is available at: https://api-doc.365businessdev.com/
 
-1. Numbered
-2. List
+### Can I use my API key for development?
+Yes, you can. The subscription API keys are also enabled for development purpose within our `testing` slot we provide for developers.
 
-**Bold** and _Italic_ and `Code` text
+Nevertheless we recommend to register for a developer API key to make sure that your personal API key will not become public.
 
-[Link](url) and ![Image](src)
-```
+### Can I use a API key for multiple customers?
+Yes, you can. The API key is only for tracking usage and providing accounting data.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Nevertheless we recommend to register each customer with a seperate API keys to be able to provide a more detailed accounting. You can request for a collective invoice instead of single invoice per API key to reduce your internal effort.
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/365businessdev/Documentation/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Can I change the 365 business development apps I refer to?
+No, but you can use one of your publisher events to change the way the app is working. Further you can address enhancements and issues directly to our development team, using the integrated feedback system.
