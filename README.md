@@ -9,8 +9,8 @@ Following the in this documentation covered apps are listed:
 | Name | Description |
 | --- | --- |
 | [365 business API](./365businessapi/README.md) | Base library app, to consume 365 business API services. |
-| 365 business Barcode | _Documentation coming soon._ |
-| 365 business PDF | _Documentation coming soon._ |
+| [365 business Barcode](./365businessbarcode/README.md) | Encode and decode 1D- and 2D-barcodes. |
+| [365 business PDF](./365businesspdf/README.md) | Digitally sign, apply stationery and concatenate PDF documents. |
 
 ## Frequently Asked Questions
 
